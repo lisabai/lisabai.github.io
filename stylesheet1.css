@@ -6,19 +6,6 @@ body{
     background-attachment: fixed;
 }
 
-
-#header{
-
-    height: -600px;
-    text-align: center;
-    font-family:'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
-    font-size: 40px;
-    width: 100%;
-    color: #FFF;
-}
-
-
-
 #NT{
     display: block;
     clear:both;
@@ -34,16 +21,6 @@ body{
     #NT ul{
         padding-top: 15px;
     }
-
-/*#nameTag{
-    height: 300px;
-    width: 550px;
-    background-color: #FFF;
-    text-decoration: none;
-    margin-top: 50px;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 20px;
-}*/
 
 #nameTag{
     height: 250px;
@@ -104,20 +81,6 @@ body{
     text-decoration: none;
 }
 
-.footer{
-    border-radius: 5px;
-    width: 100%;
-    margin: auto;
-    position: relative;
-    height: 200px;
-    background-color: #BACFCF;
-    clear: both;
-    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
-    font-size: 14px;
-    text-align: center;
-    color: #ffffff;
-}
-
 /*Buttons on top*/
 
 #buttons {
@@ -167,9 +130,15 @@ body{
     background: rgba(255,255,255,.75);
     margin:50px;
     padding: 10px 15px 10px 15px;
+
 }
 h1{
     text-align: center;
     font-family: 'Helvetica Rounded', Arial, sans-serif;
 }
 
+#describeMe{
+    font-size: 20px;
+    font-family: 'Helvetica Rounded', Arial, sans-serif;
+
+}
