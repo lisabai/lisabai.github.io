@@ -1,19 +1,16 @@
 
 body{
 
-	background-image: url(Bostonskyline.png);
-	background-repeat: no-repeat;
+    background-image: url(Bostonskyline.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
-
-
-
 
 
 #header{
 
-	height: -600px;
-	text-align: center;
+    height: -600px;
+    text-align: center;
     font-family:'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
     font-size: 40px;
     width: 100%;
@@ -23,20 +20,20 @@ body{
 
 
 #NT{
-	display: block;
-	clear:both;
-	height: 425px;
-	width: 550px;
-	background: #800000;
-	margin: 150px auto 0 auto;
-	border-radius: 8px;
-	text-align: center;
-	box-shadow: 1px 1px 6px #151515;
+    display: block;
+    clear:both;
+    height: 425px;
+    width: 550px;
+    background: #800000;
+    margin: 100px auto 0 auto;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 1px 1px 6px #151515;
 }
 
-	#NT ul{
-		padding-top: 15px;
-	}
+    #NT ul{
+        padding-top: 15px;
+    }
 
 /*#nameTag{
     height: 300px;
@@ -49,8 +46,8 @@ body{
 }*/
 
 #nameTag{
-	height: 250px;
-	margin-top: 15px;
+    height: 250px;
+    margin-top: 15px;
     background-color: #FFF;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 20px;
@@ -66,13 +63,13 @@ body{
 }
 
 #BC {
- 	font-family:'Marker Felt','Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    font-family:'Marker Felt','Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
     font-size: 25px;
     margin-top: 30px;
 }
 
 #hello{
-	text-align: center;
+    text-align: center;
     font-family:'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
     font-size: 50px;
     font-weight: bold;
@@ -108,25 +105,25 @@ body{
 }
 
 .footer{
-	border-radius: 5px;
-	width: 100%;
-	margin: auto;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
     position: relative;
-	height: 200px;
+    height: 200px;
     background-color: #BACFCF;
-	clear: both;
-	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
-	font-size: 14px;
-	text-align: center;
-	color: #ffffff;
+    clear: both;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
 }
 
 /*Buttons on top*/
 
 #buttons {
-	height:65px;
-	width:750px;
-	margin: 0 auto;
+    height:65px;
+    width:750px;
+    margin: 0 auto;
 
 }
 
@@ -159,9 +156,16 @@ body{
 }
 
  #buttons li a:hover, #buttons li a{
- 	transition:          all .2s linear 0;
- 	-webkit-transition:  all .2s linear 0;
- 	-ms-transition:      all .2s linear 0;
- 	-moz-transition:     all .2s linear 0;
+    transition:          all .2s linear 0;
+    -webkit-transition:  all .2s linear 0;
+    -ms-transition:      all .2s linear 0;
+    -moz-transition:     all .2s linear 0;
+}
+
+#textBox{
+    text-align: justify;
+    background: rgba(255,255,255,.75);
+    margin:50px;
+    padding: 10px 15px 10px 15px;
 }
 
