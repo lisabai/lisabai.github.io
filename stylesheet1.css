@@ -132,7 +132,7 @@ body{
     margin:50px;
     padding: 10px 15px 10px 15px;
     text-decoration: none;
-    font-family: 'Corben', Georgia, Times, serif;
+ 
 
 }
 #textBox2{
@@ -150,7 +150,8 @@ h1{
 
 #describeMe{
     font-size: 20px;
-    font-family: 'Helvetica Rounded', Arial, sans-serif;
+    /*font-family: 'Helvetica Rounded', Arial, sans-serif;*/
     text-align: center;
+    font-family: 'Corben', Georgia, Times, serif;
 
 }
