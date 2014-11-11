@@ -92,7 +92,8 @@ body{
 
 #buttons li {
     float: left;
-    font-family: 'Helvetica Rounded', Arial, sans-serif;
+    /*font-family: 'Helvetica Rounded', Arial, sans-serif;*/
+    font-family: 'Corben', Georgia, Times, serif;
     list-style: none;
     text-align: center;
     background-color: rgba(0,0,0,0.60);
