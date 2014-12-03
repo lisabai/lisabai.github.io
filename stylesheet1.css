@@ -23,7 +23,7 @@ body{
     background-image: url(https://drive.google.com/thumbnail?id=0B81sgR9xLzgoY0VKOHYydENjclk&authuser=0&v=1417472999465&sz=w2118-h1092);
     background-repeat: no-repeat;
     background-attachment: fixed;*/
-    width: 100%;
+width: 100%;
 padding: 0 auto;
 margin-top: 8px;
 margin-right: 0px;
@@ -61,14 +61,6 @@ margin-left: 0px;
         padding-top: 15px;
     }
 
-#nameTag{
-    height: 100%;
-    width: 100%;
-    margin-top: 15px;
-    background-color: #FFF;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 20px;
-}
 
 #title{
     font-family: 'Permanent Marker';
@@ -107,18 +99,6 @@ margin-left: 0px;
     color: #FFF;
     text-decoration: none;
     list-style: none;
-}
-
-#nameTagBorderBottom{
-    margin: 0 auto;
-    text-align: center;
-    padding: none;
-    height: 40px;
-    width: 550px;
-    background-color: #800000;
-    /*border: 10px solid white;*/
-    border-radius: 0 0 7px 7px; 
-    text-decoration: none;
 }
 
 /*Buttons on top*/
