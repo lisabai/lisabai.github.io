@@ -47,13 +47,14 @@ margin-left: 0px;
 #NT{
     display: block;
     clear:both;
-    height: 425px;
-    width: 550px;
+    height: 100%;
+    width: 35%;
     background: #800000;
     margin: 70px auto 0 auto;
     border-radius: 8px;
     text-align: center;
     box-shadow: 1px 1px 6px #151515;
+    padding: 0 0 3% 0;
 }
 
     #NT ul{
