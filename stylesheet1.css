@@ -138,17 +138,28 @@ body{
  
 
 }
-#textBox2{
+#aboutMeTextBox{
+
     text-align: justify;
-    background: rgba(255,255,255,.75);
+/*    background: rgba(255,255,255,.75);*/
+    background: rgba(0,0,0,0.60);
     margin:50px;
     padding: 10px 15px 10px 15px;
     text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Lato','Helvetica Rounded', Arial, sans-serif;
 
+}
+
+#spotify{
+    float: left;
+}
+#BC{
+    float: right;
 }
 h3{
     text-align: center;
-    font-family: 'Helvetica Rounded', Arial, sans-serif;
+    font-family: 'Lato','Helvetica Rounded', Arial, sans-serif;
 }
 h1{
      text-shadow: 4px 5px #600000;
