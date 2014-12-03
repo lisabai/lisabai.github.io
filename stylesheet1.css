@@ -4,6 +4,7 @@ body{
     background-image: url(https://drive.google.com/thumbnail?id=0B81sgR9xLzgoY0VKOHYydENjclk&authuser=0&v=1417472999465&sz=w2118-h1092);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 8px, 0px, 4px, 0px;
 }
 
 #NT{
@@ -135,7 +136,6 @@ body{
     color: #FFFFFF;
     width: 100%;
     margin:50px 0px 0px 0px;
-    
     padding: 10px 15px 10px 15px;
     text-decoration: none;
  
