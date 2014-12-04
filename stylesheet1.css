@@ -200,10 +200,10 @@ width: 100%;
 }
 
  #buttons li div a:hover, #buttons li div a{
-    transition:          all .1s linear 0;
-    -webkit-transition:  all .1s linear 0;
-    -ms-transition:      all .1s linear 0;
-    -moz-transition:     all .1s linear 0;
+    transition:          all .3s linear 0;
+    -webkit-transition:  all .3s linear 0;
+    -ms-transition:      all .3s linear 0;
+    -moz-transition:     all .3s linear 0;
 }
 
 #textBox{
