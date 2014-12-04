@@ -1,6 +1,6 @@
 
 html { 
-  background: url(https://drive.google.com/thumbnail?id=0B81sgR9xLzgoY0VKOHYydENjclk&authuser=0&v=1417472999465&sz=w2118-h1092) no-repeat center center fixed; 
+  background: url("Bostonskyline.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -277,6 +277,7 @@ text-align: center;
     margin:50px;
     padding: 10px 15px 10px 15px;
     text-decoration: none;
+    list-style: none;
     color: #FFFFFF;
     font-family: 'Lato','Helvetica Rounded', Arial, sans-serif;
 
@@ -289,6 +290,11 @@ text-align: center;
     width: 47%;
 }
 
+#spotify{
+    display: inline-block;
+    float: right;
+
+}
 
 /*#BCimg{
     float: right;
@@ -308,5 +314,10 @@ h1{
     text-align: center;
     color: #FFFFFF;
     font-family: 'Lato', Georgia, Times, serif;
+
+}
+#youtube{
+    display: inline-block;
+    float: right;
 
 }
