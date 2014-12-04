@@ -28,17 +28,17 @@ body{
 }
 
 @media screen and (min-width: 0) {
-    body{ width: 100%; }
+    
 /*    #buttons li{
             display: block;
     }*/
 
 }
 @media screen and (min-width: 1000px) {
-    body{ width: 100%; }
+    
 }
 @media screen and (min-width: 1400px) {
-    body{ width: 100%; }
+    
 }
 
 #NT{
@@ -52,9 +52,11 @@ body{
     text-align: center;
     box-shadow: 1px 1px 6px #151515;
     padding: 0 0 3% 0;
+    min-width: 400px;
 }
 
     #NT ul{
+        padding-left: 0;
         padding-top: 15px;
     }
 
@@ -64,74 +66,6 @@ body{
     margin-top: 15px;
     background-color: #FFF;
 }
-
-/*
-#NT{
-    position: absolute;
-    top: 0; bottom: 0; left: 0; right: 0;
-    display: block;
-    clear:both;
-    height: 390px;
-    width: 500px;
-    background: #800000;
-    background:  #151B54;
-/*    background: #810541; maroon
-    margin: 70px auto 0 auto;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 1px 1px 6px #151515;
-    padding: 0 0 3% 0;
-}*/
-
-
-/*
-#NT{
-    display: block;
-    clear:both;
-    height: 100%;
-    width: 35%;
-    background: #800000;
-    margin: 70px auto 0 auto;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 1px 1px 6px #151515;
-    padding: 0 0 3% 0;
-}*/
-/*    #NT ul{
-        padding-top: 15px;
-    }
-
-#nameTag{
-    height: 300px;
-    width: 500px;
-    margin-top: 15px;
-    background-color: #FFF;
-}
-
-#container {
-    width: 50%;
-    overflow: hidden;
-    padding: 0px 0 115px 0;
-}
-#container:before {
-       content: "";
-    display: block;
-    padding-top: 50%;
-}*/
-/*.container .outer {
-    width: 100%;
-    padding-top: 1%; /* defines aspect ratio 
-    position: relative;
-}
-.container .outer .inner {
-    position: relative;
-    margin: 0 auto 0 auto;
-     /*   top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-*/
 
 #title{
     font-family: 'Permanent Marker';
@@ -216,33 +150,43 @@ body{
 
 /*Buttons on top*/
 
-
-
 #buttons{
 font-family: 'Lato';
 font-size:20px;
 list-style:none;
-margin:9px 0 9px 0;
+/*margin:9px 0 9px 0;*/
 padding:0;
 overflow: auto;
 text-align: center;
+width: 100%;
 }
 
 #buttons li {
-    display: inline;
-    padding: 0 70px 0 70px;
+    display: inline-block;
+    list-style: none;
+    text-align:center;
+    width:24%;
 }
+
+#buttons li div{
+    list-style: none;
+    text-align:center;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.60);
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px #989898;
+    width: 75%;
+    padding: 5px;
+    min-width: 110px;
+}
+
+
 
 #buttons li a{
     text-decoration: none;
     color: #FFFFFF;
     display: inline-block;
-    background-color: rgba(0,0,0,0.60);
-    border-radius: 4px;
-    box-shadow: 0px 0px 4px #989898  ;
-    padding: 5px 35px 5px 35px;
-    text-align:center;
-
+    
 }
 
 #buttons li a:hover {
