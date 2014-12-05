@@ -219,6 +219,7 @@ width: 100%;
     text-align: justify;
 /*    background: rgba(255,255,255,.75);*/
     background: rgba(0,0,0,0.60);
+    height: 1000px;
     margin:50px;
     padding: 10px 15px 10px 15px;
     text-decoration: none;
@@ -238,6 +239,7 @@ width: 100%;
 #spotify{
     display: inline-block;
     float: right;
+    padding: 30px;
 
 }
 
@@ -261,8 +263,12 @@ h1{
     font-family: 'Lato', Georgia, Times, serif;
 
 }
+
 #youtube{
     display: inline-block;
+    list-style: none;
+    padding: 30px;  
     float: right;
 
 }
+
