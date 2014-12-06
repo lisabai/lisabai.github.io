@@ -64,7 +64,7 @@ body{
     height: 100%;
     width: 100%;
     margin-top: 15px;
-    background-color: #FFF;
+    background-color: #FCFCFC;
 }
 
 #title{
@@ -208,7 +208,7 @@ width: 100%;
 
 #textBox{
     text-align: center;
-    background: rgba(0,0,0,0.60);
+    background: rgba(0,0,0,0.20);
     color: #FFFFFF;
     width: 100%;
     margin:90px 0px 0px 0px;
@@ -219,7 +219,7 @@ width: 100%;
     text-align: justify;
 /*    background: rgba(255,255,255,.75);*/
     background: rgba(0,0,0,0.60);
-    height: 1000px;
+    height: 10;
     margin:50px;
     padding: 10px 15px 10px 15px;
     text-decoration: none;
