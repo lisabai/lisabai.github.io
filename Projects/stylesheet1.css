@@ -1,0 +1,224 @@
+
+html { 
+  background: url("Bostonskyline.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body{
+    width: 100%;
+    padding: 0 auto;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+@media screen and (min-width: 0) {
+    
+/*    #buttons li{
+            display: block;
+    }*/
+
+}
+@media screen and (min-width: 1000px) {
+    
+}
+@media screen and (min-width: 1400px) {
+    
+}
+
+#NT{
+    display: block;
+    clear:both;
+    height: 100%;
+    width: 35%;
+    background: #800000;
+    margin: 70px auto 0 auto;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 1px 1px 6px #151515;
+    padding: 0 0 3% 0;
+    min-width: 400px;
+}
+
+    #NT ul{
+        padding-left: 0;
+        padding-top: 15px;
+    }
+
+#nameTag{
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #FCFCFC;
+}
+
+#title{
+    font-family: 'Permanent Marker';
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    padding-top:50px;
+}
+
+#BC {
+    font-family: 'Permanent Marker';
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#hello{
+    text-align: center;
+    font-family:'Lato','Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#myNameIs{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Lato','Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFF;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/*Buttons on top*/
+
+#buttons{
+font-family: 'Lato';
+font-size:20px;
+list-style:none;
+/*margin:9px 0 9px 0;*/
+padding:0;
+overflow: auto;
+text-align: center;
+width: 100%;
+}
+
+#buttons li {
+    display: inline-block;
+    list-style: none;
+    text-align:center;
+    width:24%;
+}
+
+#buttons li div{
+    list-style: none;
+    text-align:center;
+    margin: 0 auto;
+    /*background-color: rgba(0,0,0,0.60);*/
+    border-radius: 4px;
+ /*   box-shadow: 0px 0px 4px #989898*/;
+    width: 75%;
+    padding: 5px;
+    min-width: 110px;
+}
+
+
+
+#buttons li div a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    
+}
+
+#buttons li div a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-shadow: 1px 0px 5px white;
+}
+
+ #buttons li div a:hover, #buttons li div a{
+    transition:          all .3s linear 0;
+    -webkit-transition:  all .3s linear 0;
+    -ms-transition:      all .3s linear 0;
+    -moz-transition:     all .3s linear 0;
+}
+
+#textBox{
+    text-align: center;
+    background: rgba(0,0,0,0.20);
+    color: #FFFFFF;
+    width: 100%;
+    margin:90px 0px 0px 0px;
+    padding: 10px 0px 30px 0px;
+    text-decoration: none;
+}
+
+#aboutMeTextBox{
+    text-align: justify;
+/*    background: rgba(255,255,255,.75);*/
+    background: rgba(0,0,0,0.60);
+    height: 10;
+    margin:50px;
+    padding: 10px 15px 350px 15px;
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+    font-family: 'Lato','Helvetica Rounded', Arial, sans-serif;
+
+}
+
+.two-split {
+    float: left;
+    margin: 5px 0 10px 12px;
+    padding: 5px;
+    width: 47%;
+}
+
+#spotify{
+    display: inline-block;
+    float: right;
+    padding: 30px;
+
+}
+
+/*#BCimg{
+    float: right;
+}*/
+h3{
+    text-align: center;
+    font-family: 'Lato','Helvetica Rounded', Arial, sans-serif;
+}
+h1{
+     text-shadow: 4px 5px #600000;
+     font-family: 'Lato';
+}
+
+#describeMe{
+    font-size: 20px;
+    /*font-family: 'Helvetica Rounded', Arial, sans-serif;*/
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Lato', Georgia, Times, serif;
+
+}
+
+#youtube{
+    display: inline-block;
+    list-style: none;
+    padding: 30px;  
+    float: right;
+
+}
+
