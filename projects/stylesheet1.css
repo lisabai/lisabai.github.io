@@ -30,6 +30,10 @@ body{
     
 }
 
+#special{
+    border-radius: 4px;
+    text-shadow: 1px 0px 5px white;
+}
 /*Buttons on top*/
 
 #buttons{
