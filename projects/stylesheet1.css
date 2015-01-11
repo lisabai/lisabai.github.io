@@ -114,9 +114,9 @@ width: 100%;
 #Projects{
     text-align: center;
     font-family: 'Lato','Helvetica Rounded', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     text-shadow: 4px 5px #600000;
-    line-height: 140%;
+    line-height: 80%;
 }
 
 #projectTextBox{
