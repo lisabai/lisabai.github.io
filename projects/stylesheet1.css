@@ -160,10 +160,10 @@ width: 100%;
 }
 
  .projectList div a:hover, .projectList li div a{
-    transition:          all .3s linear 0;
-    -webkit-transition:  all .3s linear 0;
-    -ms-transition:      all .3s linear 0;
-    -moz-transition:     all .3s linear 0;
+    transition:          all .7s linear 0;
+    -webkit-transition:  all .7s linear 0;
+    -ms-transition:      all .7s linear 0;
+    -moz-transition:     all .7s linear 0;
 }
 
 h2{
