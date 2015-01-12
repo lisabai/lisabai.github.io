@@ -70,7 +70,20 @@
 </ul>
 
 
+
+
  -->
+
+    <script src="http://www.java.com/js/deployJava.js"></script>
+    <script>
+      // using JavaScript to get location of JNLP file relative to HTML page
+      var dir = location.href.substring(0, location.href.lastIndexOf('/')+1);
+      var url = dir + "Music Cipher.jnlp";
+      deployJava.createWebStartLaunchButton(url, '1.6.0');
+    </script>
+    <noscript>
+      <a href="Music Cipher.jnlp">Launch</a>
+    </noscript>
 
 </div>
 
