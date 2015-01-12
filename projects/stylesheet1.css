@@ -176,8 +176,12 @@ h2{
     padding-left: 15%; 
 }
 
+#musicCipher{
+    display: inline;
+}
+
 #Java{
-    padding-left: 60%;
+    display: inline;
 }
 
 

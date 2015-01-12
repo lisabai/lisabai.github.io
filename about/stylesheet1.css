@@ -109,7 +109,7 @@ width: 100%;
 /*    background: rgba(255,255,255,.75);*/
     background: rgba(0,0,0,0.60);
     margin:50px;
-    padding: 10px 15px 50px 15px;
+    padding: 10px 25px 50px 15px;
     text-decoration: none;
     list-style: none;
     color: #FFFFFF;
@@ -146,6 +146,10 @@ h3{
     color: #FFFFFF;
     font-family: 'Lato', Georgia, Times, serif;
 
+}
+
+#LinkedIn{
+    padding-left: 44%;
 }
 
 #youtube{
