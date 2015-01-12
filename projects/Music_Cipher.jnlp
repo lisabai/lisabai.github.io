@@ -11,7 +11,7 @@
         <!-- Application Resources -->
         <j2se version="1.7+"
               href="http://java.sun.com/products/autodl/j2se"/>
-        <jar href="../TextToMusicProject.jar"
+        <jar href="../sTextToMusicProject.jar"
              main="true" />
 
     </resources>
