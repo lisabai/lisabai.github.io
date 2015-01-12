@@ -1,8 +1,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <jnlp spec="1.0+" codebase=
-        "http://lisabai.me/projects/Music_Cipher.jnlp"
-      href="Music_Cipher.jnlp">
+        "http://lisabai.me/projects/Music_Cipher.jnlp">
     <information>
         <title>Music Cipher</title>
         <vendor>Lisa Bai</vendor>
@@ -12,7 +11,7 @@
         <!-- Application Resources -->
         <j2se version="1.7+"
               href="http://java.sun.com/products/autodl/j2se"/>
-        <jar href="textToMusicProject.jar"
+        <jar href="../TextToMusicProject.jar"
              main="true" />
 
     </resources>
