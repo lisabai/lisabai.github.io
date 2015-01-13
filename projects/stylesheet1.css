@@ -166,12 +166,56 @@ width: 100%;
     /*box-shadow: 0px 0px 3px rgba(255,255,255,0.50)*/
 }
 
+.projectList span {
+    text-decoration: none;
+   /* background-color: rgb(0,0,0);*/
+    /*color: rgb(136,136,136) */;
+      border: 1px solid #ccc;
+  display: none;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 5%;
+  font-family: 'Lato';
+    /*box-shadow: 0px 0px 3px rgba(255,255,255,0.50)*/
+}
+
+/*#projectDescription{
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.projectList div a:hover #projectDescription{
+    display: block;
+}*/
+
+#some-element {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 5%;
+  font-family: 'Lato';
+
+}
+
+#some-div:hover #some-element {
+  display: block;
+}
  .projectList div a:hover, .projectList li div a{
     transition:          all .57s linear 0;
     -webkit-transition:  all .57s linear 0;
     -ms-transition:      all .57s linear 0;
     -moz-transition:     all .57s linear 0;
 }
+
+
+
+
+
 
 h2{
     padding-left: 15%; 
@@ -180,6 +224,8 @@ h2{
 #musicCipher{
     display: inline;
 }
+
+
 
 #Java{
     display: inline;
