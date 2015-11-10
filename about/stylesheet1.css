@@ -144,6 +144,11 @@ h3{
 
 }
 
+#actimo{
+ text-decoration: none; 
+ color:  #C4BCCC;
+ text-shadow: 3px 3px #600000;
+}
 
 #LinkedIn{
     padding-left: 44%;
